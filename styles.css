@@ -67,14 +67,6 @@ h1 {
     margin: 0;
 }
 
-.home h1 {
-    font-size: 48px;
-    margin: 0;
-    opacity: 0; /* Inicialmente invisible */
-    transform: translateY(20px); /* Inicialmente desplazado hacia abajo */
-    transition: opacity 1s ease, transform 1s ease; /* Transición suave */
-}
-
 .highlight {
     color: #00d9ff;
 }
