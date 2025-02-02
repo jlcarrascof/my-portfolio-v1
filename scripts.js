@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 document.addEventListener("scroll", () => {
     const aboutSection = document.querySelector(".about");
+    const skillsSection = document.querySelector(".skills");
     const position = aboutSection.getBoundingClientRect().top;
     const windowHeight = window.innerHeight;
 
@@ -17,5 +18,8 @@ document.addEventListener("scroll", () => {
         aboutSection.style.opacity = "1";
         aboutSection.style.transform = "translateY(0)";
         aboutSection.style.transition = "all 1s ease";
+        document.querySelectorAll(".skill-fill").forEach((bar) => {
+            bar.style.width = bar.getAttribute("style").split(":")[1];
+        });
     }
 });
