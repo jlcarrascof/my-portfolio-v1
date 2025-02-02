@@ -92,3 +92,10 @@ h1 {
     background: #ff005d;
     color: #fff;
 }
+
+/* Animation in the main title */
+.home h1 {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 1s ease;
+}
