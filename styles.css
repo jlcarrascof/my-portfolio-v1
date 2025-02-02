@@ -18,3 +18,22 @@ body {
     align-items: center;
     position: fixed;
 }
+
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #ff005d, #00d9ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.sidebar h2 {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+}
