@@ -118,3 +118,40 @@ h1 {
 .about-text {
     flex: 1;
 }
+
+.about-text h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.about-text p {
+    font-size: 18px;
+    color: #ccc;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.about-text .highlight {
+    color: #00d9ff;
+    font-weight: bold;
+}
+
+.about-img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.about-img img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #00d9ff;
+    transition: 0.3s;
+}
+
+.about-img img:hover {
+    transform: scale(1.05);
+    border-color: #ff005d;
+}
