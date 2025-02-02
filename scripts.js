@@ -4,4 +4,6 @@ document.addEventListener("DOMContentLoaded", () => {
         homeText.style.opacity = "1";
         homeText.style.transform = "translateY(0)";
     }, 500);
+    document.querySelector(".about").style.opacity = "0";
+    document.querySelector(".about").style.transform = "translateY(20px)";
 });
