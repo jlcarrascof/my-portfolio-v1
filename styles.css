@@ -160,9 +160,9 @@ h1 {
 
 /* Sección Habilidades */
 .skills {
-    padding: 80px 50px;
-    text-align: center;
-    background: #121212;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 1s ease;
 }
 
 .skills h2 {
