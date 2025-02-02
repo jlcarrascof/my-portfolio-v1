@@ -51,3 +51,27 @@ body {
 .sidebar nav ul li a:hover, .sidebar nav ul li a.active {
     color: #00d9ff;
 }
+
+/* Main content */
+.home {
+    margin-left: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.highlight {
+    color: #00d9ff;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #aaa;
+}
