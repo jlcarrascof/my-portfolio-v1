@@ -106,11 +106,9 @@ h1 {
 
 /* Sección Sobre Mí */
 .about {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 80px 50px;
-    background: #1a1a1a;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 1s ease;
 }
 
 .about-content {
