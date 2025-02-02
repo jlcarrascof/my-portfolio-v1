@@ -99,3 +99,22 @@ h1 {
     transform: translateY(20px);
     transition: all 1s ease;
 }
+
+/* Sección Sobre Mí */
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 50px;
+    background: #1a1a1a;
+}
+
+.about-content {
+    display: flex;
+    max-width: 900px;
+    gap: 50px;
+}
+
+.about-text {
+    flex: 1;
+}
