@@ -4,4 +4,18 @@ document.addEventListener("DOMContentLoaded", () => {
         homeText.style.opacity = "1";
         homeText.style.transform = "translateY(0)";
     }, 500);
+    document.querySelector(".about").style.opacity = "0";
+    document.querySelector(".about").style.transform = "translateY(20px)";
+});
+
+document.addEventListener("scroll", () => {
+    const aboutSection = document.querySelector(".about");
+    const position = aboutSection.getBoundingClientRect().top;
+    const windowHeight = window.innerHeight;
+
+    if (position < windowHeight - 100) {
+        aboutSection.style.opacity = "1";
+        aboutSection.style.transform = "translateY(0)";
+        aboutSection.style.transition = "all 1s ease";
+    }
 });
